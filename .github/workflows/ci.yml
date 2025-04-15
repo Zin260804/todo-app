@@ -18,7 +18,7 @@ jobs:
     - name: Jira Login
       uses: atlassian/gajira-login@v3
       env:
-        JIRA_BASE_URL: https://bt11-todoapp.atlassian.net
+        JIRA_BASE_URL: https://nguyenhuuvinh3701.atlassian.net
         JIRA_USER_EMAIL: 22110355@student.hcmute.edu.vn
         JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
 
