@@ -19,7 +19,7 @@ jobs:
       uses: atlassian/gajira-login@v3
       env:
         JIRA_BASE_URL: https://nguyenhuuvinh3701.atlassian.net
-        JIRA_USER_EMAIL: 22110355@student.hcmute.edu.vn
+        JIRA_USER_EMAIL: nguyenhuuvinh3701@gmail.com
         JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
 
     - name: Extract Issue Key from Pull Request Title
